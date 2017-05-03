@@ -18,7 +18,7 @@
 ## Installation
 For on Ubuntu 16.04 x64:
 ```bash
-cd $home && git clone https://github.com/SorBlackPlus/Anti_Spam.git; cd Prime; chmod +x launch.sh; ./launch.sh
+cd $home && git clone https://github.com/SorBlackPlus/Anti_Spam.git && cd Anti_Spam && chmod +x launch.sh && ./launch.sh
      # you can use the option --no-download and only configure Anti_Spam
      # Will ask you for a phone number & confirmation code.
 ```
