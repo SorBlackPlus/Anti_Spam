@@ -3,11 +3,11 @@
 - ### frist antispam and group moderator TeleGram bot with fast speed, high power and low space = Anti_Spam :)
 
 
-[![http://t.me/SorBlack](https://img.shields.io/badge/Telegram-sajjad__021-blue.svg)](http://t.me/SorBlack)
-[![https://github.com/SorBlackPlus/Anti_Spam](https://img.shields.io/badge/%F0%9F%92%AC_GitHub-tGuard-green.svg)](https://github.com/SorBlackPlus/Anti_Spam)
-[![www.LovelyCreation.blogfa.ir](https://img.shields.io/badge/webpage-tgMember-ff69b4.svg)](www.LovelyCreation.blogfa.ir)
+[http://t.me/SorBlack](http://t.me/SorBlack)
+[https://github.com/SorBlackPlus/Anti_Spam](https://github.com/SorBlackPlus/Anti_Spam)
+[www.LovelyCreation.blogfa.ir](www.LovelyCreation.blogfa.ir)
 
-[![https://t.me/PrimeTeam](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-tgMember-blue.svg)](https://t.me/PrimeTeam)
+[https://t.me/PrimeTeam](https://t.me/PrimeTeam)
 
 <h1 align="center">Anti_Spam v7</h1>
 
