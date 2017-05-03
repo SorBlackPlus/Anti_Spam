@@ -1,7 +1,7 @@
 -- Anti_Spam v7
 -- Created On Apr 2017
 -- Developer @SorBlack
--- tgChannel @PrimeTeam
+-- PrimeTeam Channel @PrimeTeam
 serpent=require("serpent")
 https=require"ssl.https"
 JSON = require("dkjson")
