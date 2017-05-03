@@ -117,7 +117,7 @@ install() {
 	  echo "Was successfully installed"
 }
 
-#By: @sajjad_021
+#By: @SorBlack
 if [ "$1" = "install" ]; then
   install
 elif [ "$1" = "update" ]; then
