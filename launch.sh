@@ -1,10 +1,10 @@
  #!/usr/bin/env bash
-#Create BY : @sajjad_021
+#Create BY : @SorBlack
 
 THIS_DIR=$(cd $(dirname $0); pwd)
 cd $THIS_DIR
 
-#By: @sajjad_021
+#By: @SorBlack
 # Will install luarocks on THIS_DIR/.luarocks
 install_luarocks() {
   git clone https://github.com/keplerproject/luarocks.git
@@ -67,13 +67,10 @@ sudo ./.luarocks/bin/service redis-server start
 install2() {
 declare -A logo
     seconds="0.004"
-logo[-1]=" ::::::::::  :::::::      ::     ::  ::::::::  ::     ::  ::::::  :::::::: :::::: "
-logo[0]="     +:     :+    :+:    :+:+   +::+ +:       :+:+   +:+: +:   :+ +:       +:   :+ "
-logo[1]="     :+     +:           :+ +:+:+ :+ :+       :+ +:+:+ :+ :+   +: :+       :+   +: "
-logo[2]="     ++     :#           ++  +:+  ++ +++++#   ++  +:+  ++ #+++++  +++:+#   +++++#  "
-logo[3]="     ++     +#  +#+#+    #+   +   #+ #+       #+   +   +# #+   +# #+       #+   +# "
-logo[4]="     +#     #+     +#    +#       +# +#       +#       #+ +#    # +#       +#    #+"
-logo[5]="     ##      #######     ##       ## ######## ##       ## ####### ######## ##    ##"
+    logo[-1]=" ____   __        _____"
+    logo[0]="|  __ )|--|---   |_   _|___ ____   __  __"
+    logo[1]="| _|   |--|        | |/ .__|  _ \_|  \/  |"
+    logo[2]="| _|   |--|        |_|\____/\_____|_/\/\_|"
     printf "\033[32;4;208m\t"
     for i in ${!logo[@]}; do
         for x in `seq 0 ${#logo[$i]}`; do
@@ -136,5 +133,5 @@ else
   fi
 fi
 sudo service redis-server start
-  ./telegram-cli -s tgGuard.lua
+  ./telegram-cli -s Prime.lua
 fi
