@@ -9,9 +9,9 @@
 
 [![https://t.me/PrimeTeam](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-tgMember-blue.svg)](https://t.me/PrimeTeam)
 
-<h1 align="center">tgGuard v5</h1>
+<h1 align="center">Anti_Spam v7</h1>
 
-<p align="center"> <img class="td" style="vertical-align: middle;" src="https://tgmemberplus.000webhostapp.com/tgguard.jpg" alt="" width="320" height="320" /></p>
+<p align="center"> <img class="td" style="vertical-align: middle;" src="http://s8.picofile.com/file/8293897784/photo_2017_04_27_21_27_26.jpg" alt="" width="320" height="320" /></p>
 
 ***
 
