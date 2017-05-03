@@ -1,4 +1,4 @@
--- Anti_Spam v7
+--  v7
 -- Created On Apr 2017
 -- Developer @SorBlack
 -- PrimeTeam Channel @PrimeTeam
@@ -3375,9 +3375,9 @@ local pin_id = database:get('pinnedmsg'..msg.chat_id_)
    if text:match("^[Pp]rime[Tt]eam$") then
    
    local text = [[*
-Anti_Spam Version: 7.0		
+ Version: 7.0		
 
-This is an original bot and based on (Anti_Spam)
+This is an original bot and based on ()
 Copyright all right reserved and you must respect all laws.
 					
 Source: https://github.com/SorBlack
@@ -3395,7 +3395,7 @@ Site: www.LovelyCreation.blogfa.ir *]]
    if text:match("^[Hh]elp$") and is_mod(msg.sender_user_id_, msg.chat_id_) then
    
    local text = [[*
-📖 Anti_Spam راهنمای فعال سازی و غیرفعال سازی قفل های ربات :
+📖  راهنمای فعال سازی و غیرفعال سازی قفل های ربات :
 
 > حالت سختگیرانه :
 فعال سازی :
