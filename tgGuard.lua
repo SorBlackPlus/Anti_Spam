@@ -1,7 +1,7 @@
--- tgGuard v5
+-- Anti_Spam v7
 -- Created On Apr 2017
--- Developer @sajjad_021
--- tgChannel @tgMember
+-- Developer @SorBlack
+-- tgChannel @PrimeTeam
 serpent=require("serpent")
 https=require"ssl.https"
 JSON = require("dkjson")
@@ -16,9 +16,9 @@ notify = lgi.require('Notify')
 notify.init ("Telegram updates")
 chats = {}
 day = 86400
-bot_id = 180191663 -- [[محل قرار گیری آیدی اکانت ربات]]
-sudo_users = {158955285,180191663,279700027} -- [[محل قرار گیری آیدی سودو ها]]
-bot_owner = {158955285,180191663,279700027} -- [[ محل قرار گیری آیدی مدیر اصلی ربات ]]
+bot_id = 135727521 -- [[محل قرار گیری آیدی اکانت ربات]]
+sudo_users = {93365812,369595589,118571018,128821696,366147497} -- [[محل قرار گیری آیدی سودو ها]]
+bot_owner = {93365812,369595589,118571018,128821696,366147497} -- [[ محل قرار گیری آیدی مدیر اصلی ربات ]]
   -----------------------------------------------------------------------------------------------                  
      ---------------
   -- Start Functions --
@@ -3144,7 +3144,7 @@ local function gpro(extra, result, success)
     end
 	-----------------------------------------------------------------------------------------------
   	if text:match("^[Ss]hare$") and is_sudo(msg) then
-       sendContact(msg.chat_id_, msg.id_, 0, 1, nil, 989216973112, 'Sajjad', '021', 158955285)
+       sendContact(msg.chat_id_, msg.id_, 0, 1, nil, 989109505426, 'SorBlack', '021', 93365812)
     end
 	-----------------------------------------------------------------------------------------------
 	if text:match("^[Rr]ename (.*)$") and is_owner(msg.sender_user_id_, msg.chat_id_) then
@@ -3269,10 +3269,10 @@ local function gpro(extra, result, success)
 	local list = database:smembers(hash)
 	if tonumber(txt[2]) == 123456786 then
 	name = "1"
-	elseif tonumber(txt[2]) == 180191663 then
-	name = "sajjad"
-	elseif tonumber(txt[2]) == 158955285 then
-	name = "sajjad_021"
+	elseif tonumber(txt[2]) == 93365812 then
+	name = "SorBlack"
+	elseif tonumber(txt[2]) == 93365812 then
+	name = "SorBlack"
 	else
 	name = "ناشناس"
 	--elseif txt[2] ==
@@ -3372,30 +3372,30 @@ local pin_id = database:get('pinnedmsg'..msg.chat_id_)
 		 end
    end
  -----------------------------------------------------------------------------------------------
-   if text:match("^[Tt]g[Gg]uard$") then
+   if text:match("^[Pp]rime[Tt]eam$") then
    
    local text = [[*
-tgGuard Version: 5.0		
+Anti_Spam Version: 7.0		
 
-This is an original bot and based on (tgGuard)
+This is an original bot and based on (Anti_Spam)
 Copyright all right reserved and you must respect all laws.
 					
-Source: https://github.com/tgMember/tGuard
+Source: https://github.com/SorBlack
 					
-Channel: @tgMember
+Channel: @PrimeTeam
 		
-Messenger: @tgMessageBot
+Messenger: @PmSorBlackBot
 		
-Creator: @sajjad_021
+Creator: @SorBlack
 		
-Site: http://tgMember.cf *]]
+Site: www.LovelyCreation.blogfa.ir *]]
            send(msg.chat_id_, msg.id_, 1, text, 1, 'md')
    end
    -----------------------------------------------------------------------------------------------
    if text:match("^[Hh]elp$") and is_mod(msg.sender_user_id_, msg.chat_id_) then
    
    local text = [[*
-📖 tgGuard راهنمای فعال سازی و غیرفعال سازی قفل های ربات :
+📖 Anti_Spam راهنمای فعال سازی و غیرفعال سازی قفل های ربات :
 
 > حالت سختگیرانه :
 فعال سازی :
@@ -3581,8 +3581,8 @@ Setlink
 
 Expire
 					
-Developer @sajjad_021
-tgChannel @tgMember *]]
+Developer @PrimeTeam
+PrimeTeam Channel @PrimeTeam *]]
            send(msg.chat_id_, msg.id_, 1, text, 1, 'md')
    end
    -----------------------------------------------------------------------------------------------
@@ -3592,7 +3592,7 @@ tgChannel @tgMember *]]
    end
    -----------------------------------------------------------------------------------------------
       if text:match("^[Pp]ayping$") and is_sudo(msg) then
-        send(msg.chat_id_, msg.id_, 1, 'https://zarinp.al/tgMember', 1, 'html')
+        send(msg.chat_id_, msg.id_, 1, 'https://zarinp.al/SorBlack', 1, 'html')
    end
   end
   -----------------------------------------------------------------------------------------------
