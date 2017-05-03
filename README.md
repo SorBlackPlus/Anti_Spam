@@ -1,13 +1,13 @@
 
 
-- ### frist antispam and group moderator TeleGram bot with fast speed, high power and low space
+- ### frist antispam and group moderator TeleGram bot with fast speed, high power and low space = Anti_Spam :)
 
 
-[![http://t.me/sajjad_021](https://img.shields.io/badge/Telegram-sajjad__021-blue.svg)](http://t.me/sajjad_021)
-[![https://github.com/tgMember/tGuard](https://img.shields.io/badge/%F0%9F%92%AC_GitHub-tGuard-green.svg)](https://github.com/tgMember/tGuard)
-[![http://tgmember.cf](https://img.shields.io/badge/webpage-tgMember-ff69b4.svg)](http://tgmember.cf)
+[![http://t.me/SorBlack](https://img.shields.io/badge/Telegram-sajjad__021-blue.svg)](http://t.me/SorBlack)
+[![https://github.com/SorBlackPlus/Anti_Spam](https://img.shields.io/badge/%F0%9F%92%AC_GitHub-tGuard-green.svg)](https://github.com/SorBlackPlus/Anti_Spam)
+[![www.LovelyCreation.blogfa.ir](https://img.shields.io/badge/webpage-tgMember-ff69b4.svg)](www.LovelyCreation.blogfa.ir)
 
-[![https://t.me/tgMember](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-tgMember-blue.svg)](https://t.me/tgMember)
+[![https://t.me/PrimeTeam](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-tgMember-blue.svg)](https://t.me/PrimeTeam)
 
 <h1 align="center">tgGuard v5</h1>
 
@@ -18,17 +18,17 @@
 ## Installation
 For on Ubuntu 16.04 x64:
 ```bash
-cd $home && git clone https://github.com/tgMember/tGuard.git; cd tGuard; chmod +x launch.sh; ./launch.sh
-     # you can use the option --no-download and only configure TgGuard
+cd $home && git clone https://github.com/SorBlackPlus/Anti_Spam.git; cd Prime; chmod +x launch.sh; ./launch.sh
+     # you can use the option --no-download and only configure Anti_Spam
      # Will ask you for a phone number & confirmation code.
 ```
 
 ***
 
 ## add sudo
-editg tgGuard.lua whit:
+editg Prime.lua whit:
 ```
-nano tgGuard.lua
+nano Prime.lua
 ```
 and edit 13,14,15 lines.
 whit 'ctrl+x' & 'y' & 'enter' key save the file.
@@ -38,7 +38,7 @@ whit 'ctrl+x' & 'y' & 'enter' key save the file.
 ## Tmux & ANTI CRASH :
 ```bash
 killall tmux
-tmux new-session -d -s tGuard "./telegram-cli -s tgGuard.lua"
+tmux new-session -d -s tGuard "./telegram-cli -s Prime.lua"
 ```
 
 ***
@@ -49,8 +49,8 @@ for see instruction and command, send help method in your bot.
 
 -
 
-# [Creator](https://telegram.me/sajjad_021)
-# [Channel](https://telegram.me/tgMember)
+# [Creator](https://telegram.me/SorBlack)
+# [Channel](https://telegram.me/PrimeTeam)
 			
 ----------
 
